@@ -21,7 +21,7 @@ function App() {
           <main className="AppBody">
             <Routes>
               <Route
-                path="/https://Rogerio-Lacerda.github.io/dogs"
+                path="/"
                 element={<Home />}
               />
               <Route path="login/*" element={<Login />} />
