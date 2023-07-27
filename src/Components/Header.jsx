@@ -11,7 +11,7 @@ const Header = () => {
       <nav className={`${styles.nav} container`}>
         <ul>
           <li>
-            <Link to="/" className={styles.logo} aria-label="Dogs - Home">
+            <Link to="/dogs" className={styles.logo} aria-label="Dogs - Home">
               <Dogs />
             </Link>
           </li>
